@@ -1,0 +1,15 @@
+{
+  "name": "package-organizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ericblade/quagga2": "^1.2.4"
+  }
+}

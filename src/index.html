@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>package organizer</title>
+  </head>
+  <body>
+    <label for="route">choose an express route:</label>
+    <select id="deliveryType">
+      <option value="normal">normal</option>
+      <option value="sensitive goods">sensitive goods</option>
+      <option value="EMS">EMS</option>
+    </select>
+
+    <input type="number" onfocus="this.value=''" id="trackingNum" />
+
+    <input type="submit" id="submitButton" />
+
+    <div id="numList"></div>
+    <div id="video"></div>
+  </body>
+</html>
